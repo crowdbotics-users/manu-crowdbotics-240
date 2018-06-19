@@ -8,6 +8,7 @@ from home.models import CustomText, HomePage
 def home(request):
     packages = [
 	{'name':'Misago', 'url': 'http://pypi.python.org/pypi/Misago/0.14.0'},
+	{'name':'Misago', 'url': 'http://pypi.python.org/pypi/Misago/0.14.0'},
 	{'name':'django-rest-framework', 'url': 'http://pypi.python.org/pypi/django-rest-framework/0.1.0'},
 	{'name':'django-rest-framework', 'url': 'http://pypi.python.org/pypi/django-rest-framework/0.1.0'},
     ]
