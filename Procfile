@@ -1,0 +1,1 @@
+web: waitress-serve --port=$PORT manu_crowdbotics_240.wsgi:application
